@@ -18,7 +18,7 @@ class MyStack<T> {
 
     /**
      * 將一個元素推入棧的頂部 (Push)。
-     * 在 LinkedList 中，我們使用 addFirst 來模擬推入操作。
+     * 在 LinkedList 中，使用 addFirst 來模擬推入操作。
      */
     public void push(T item) {
         // 等同於 stack.addFirst(item)
@@ -32,7 +32,7 @@ class MyStack<T> {
      */
     public T pop() {
         // 等同於 stack.removeFirst()
-        // 由於您原先的程式碼是 return stack.top(); 
+        // 由於原先的程式碼是 return stack.top(); 
         // 這裡需要修改為 LinkedList 提供的 removeFirst() 或 pop() 
         return stack.pop(); 
     }
